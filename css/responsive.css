@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* begin styling */
+
+@media (min-width:768px) and (max-width:821px) {
+    .begin>h4{
+        font-size: 25px;
+    }
+}
+
+@media (max-width:768px) {
+    .begin>h4{
+        font-size: 28px;
+    }
+    .begin>.bamo,
+    .begin>.telep{
+        width: 30px;
+    }
+    .begin>.bamo>.img-flu,
+    .begin>.telep>.img-flu {
+        background-color: #dddddd;
+        height: 50px;
+        width:30px;
+        padding: 5px 10px;
+    }
+    .begin>.bamo>span{
+       display: none;
+    }
+    .begin>.telep>span{
+        display: none;
+    }
+}
+
+/* Navbar Styling */
+
+@media (max-width:768px) {
+    .begin>#menu-btn{
+        display: block;
+    }
+    .navbar>#side-menu{
+        display: none;
+        height: 100vh;
+        width: 100%;
+        background-color: #353b48;
+        top: 0;
+        right: 0;
+        max-width: 400px;
+        padding: 40px 50px;
+        transition:all 0.6s ease 0s;
+    }
+    .navbar #side-menu>ul{
+        display: block;
+    }
+    .navbar>#side-menu>ul>li{
+        margin: 30px 0;
+     }
+    .navbar>#side-menu>ul>li>a{
+        font-size: 25px;
+        transition:all 0.9s ease 0s;
+    }
+    .navbar>.header>ul>li {
+        padding: 0;
+    }
+}
+
+/* Header-img styling */ 
+
+@media (max-width:768px) {
+    .header-img{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        /* padding-bottom: 150px; */
+    }
+}
+
+/* Paragraph Styling */
+
+@media (max-width:768px) {
+    .header-img>.paragraph{ 
+        width: 100%;
+        height: 300px;  
+        position: relative;
+        top: 0;
+        left: 0;
+        padding: 0 30px;
+        /* margin-bottom: 50px; */
+     }
+     .header-img>.paragraph>h1{
+         color: #ffffff;
+         font-family: sans-serif;
+         font-size: 60px;
+        
+     }
+     .header-img>.paragraph>p{
+         padding: 18px 0 20px 0;
+         line-height: 29px;
+         font-size: 14px;
+       
+     }
+     .header-img>.paragraph>.button{
+         width: 180px;
+         height: 45px;
+         padding: 13px 10px;
+     }   
+}
+
+/* Course styling */
+@media (max-width:768px) {
+    .course{
+        margin-top: 80px;
+        text-align: center;
+        min-height: 100vh;
+    }
+    .course>h3{
+        font-size: 38px;
+        font-family: sans-serif;
+        margin-bottom: 15px;
+    }
+    .course>p{
+        font-size: 16px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .course>.owl-carousel{
+        padding: 50px 5px 20px; 
+    }
+   
+}
+
+ /* Book Training */
+
+ @media (max-width:768px) {
+    .book{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    .book>.book1,
+    .book>.book2{
+       width: 100%;
+       min-height: 90vh;
+    }
+ }
+ 
+ /************* Our Topnotch Features ********/
+
+ @media (max-width:768px) {
+    .topnotch .features{
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        min-height: 100%;
+        align-items: center;
+        padding: 40px 30px;
+    }
+    .topnotch .features>.right{
+        width: 100%;
+        min-height: 50%;
+        margin-left:0;
+        text-align: center;
+    }
+    .topnotch .features>.left{
+        width: 100%;
+        min-height:50%;
+     }
+    .topnotch .features>.right .single-feature{
+        padding: 10px;
+        max-width: 450px;
+        /* min-height: 300px; */
+    }
+ }
+
+ /******** IMAGE GALLERY ******/
+ @media (max-width:768px) {
+    .images>.container>.row .col-lg-4 img.img-fluid{
+         max-width: 100%;
+
+     } 
+     .images>.container>.row .col-lg-4 img{
+         vertical-align: middle;
+     }
+ }
+/************ TESTIMONIAL *********/
+ @media (max-width:768px) {
+    .testimonial>.test{
+        padding: 60px 40px; 
+    }
+ }
+
+ /******** BRANDS AREA *******/
+
+ @media (max-width:768px) {
+    .container>.brand-image{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .container>.brand-image img{
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 38px;
+    }
+    .container>.brand-image img:last-child{
+        margin-bottom: 15px;
+    }
+ }
+
+ /******* FOOTER  ********/
+/* @media (max-width:768px) {
+    .container>.row .single-footer-widget form .input-group{
+        width: 400px;
+        object-fit: auto;
+    }
+    .container>.row .single-footer-widget form .input-group>.input-group-btn>button{
+        background: red;
+        border: none;
+        border-radius: 50%;
+        color: #ffffff;
+        width: 34px;
+        height: 34px;
+        position: absolute;
+        top: 0;
+        left:380px;
+        z-index: 999;
+    }
+} */
+
+/* FOOTER BOTTOM */
+@media (max-width:768px) {
+    .container>.footer-bottom {
+        width: 100%;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .container>.footer-bottom>p{
+        font-size: 14px;
+    }
+    .container>.footer-bottom>.footer-social{
+        display: flex;
+        max-width: 100%;
+        justify-content:center;
+        align-items: center;
+    }
+    
+}
